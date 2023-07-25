@@ -1,0 +1,196 @@
+/* COLOR PALATTE
+    black: #0D0A0B
+    gray: #454955
+    green: #4caf50
+    white
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Atkinson+Hyperlegible&family=Chango&family=Cinzel&family=Comfortaa&family=Cormorant&family=Dancing+Script&family=Josefin+Slab&family=Lato:ital,wght@0,300;0,900;1,300&family=Lobster&family=Londrina+Solid:wght@300&family=Luckiest+Guy&family=Marcellus+SC&family=Montserrat:ital,wght@1,200;1,300&family=Nunito+Sans:wght@200;300&family=Open+Sans&family=Playfair+Display&family=Quattrocento+Sans&family=Quattrocento:wght@700&display=swap');
+
+.wrapper{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.mainHead{
+    font-family: Quattrocento;
+}
+
+.counterHead{
+    font-family: Quattrocento;
+    font-size: 1.5rem;
+}
+
+.mobile{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.mobile ul{
+    padding: 0;
+}
+
+.mobile li{
+    list-style-type: none;
+    padding: 0;
+}
+
+.mobile a{
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-size: 1rem;
+    color: black;
+}
+
+hr{
+    border-top: 1px solid #4caf50;
+}
+
+.bold{
+    border-top: 10px solid #4caf50;
+}
+
+.desktop{
+    display: none;
+}
+
+button{
+    background-color: white;
+    border: 2px solid #4caf50;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 4px 2px;
+}
+
+.buttons{
+    width: 5rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: left;
+}
+
+button#active{
+    background-color: #4caf50;
+    color: white !important;
+}
+
+.content h3{
+    font-family: Quattrocento;
+}
+
+.content img{
+    max-width: 25rem;
+    width: 100%;
+    height: auto;
+}
+
+.content p{
+    font-family: Nunito Sans;
+    font-size: 0.75rem;
+}
+
+.social a{
+    color: #4caf50;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 4px 2px;
+}
+
+/* Media Query for 960px and larger */
+   
+@media screen and (min-width: 60em) {
+
+/* body{
+    position: relative;
+    min-height: 100vh;
+} */
+
+body{
+    max-width: 70%;
+    margin: auto;
+}
+
+.mainHead{
+    font-family: Quattrocento;
+    text-align: center;
+}
+
+.contentHead{
+    font-family: Quattrocento;
+    font-size: 2rem;
+}
+
+.mobile{
+    display: none;
+}
+
+.desktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.desktop ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.desktop li{
+    list-style-type: none;
+    padding: 0;
+}
+
+.desktop a{
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    border: 2px solid #4caf50;
+    padding: 15px 30px;
+    display: inline-block;
+    margin: 4px 8px;
+}
+
+.desktop a:hover{
+    background-color: #4caf50;
+    color: white;
+}
+
+.content{
+    padding-bottom: 3rem;
+    overflow: auto;
+}
+
+.content img{
+    width: 25%;
+    height: auto;
+    float: left;
+    margin-right: 1rem;
+}
+
+.content p{
+    font-size: 1rem;
+}
+
+footer{
+    bottom: 0;
+}
+
+}
+
